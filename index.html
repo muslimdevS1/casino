@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <input type="button" value="spin" style="float:left;" id='spin' />
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <div class="total">
+        <p>TOTAL:</p>
+        <span></span>
+    </div>
+
+    <div class="bank">
+        <p>CASINO BANK:</p>
+        <div class="deposit">
+            <ul>
+                <li onclick="credit(500, 50000)">
+                    <span>CREDIT:</span>
+                    <span>500$</span>
+                </li>
+                <li onclick="credit(1000, 100000)">
+                    <span>CREDIT:</span>
+                    <span>1000$</span>
+                </li>
+                <li onclick="credit(1500, 150000)">
+                    <span>CREDIT:</span>
+                    <span>1500$</span>
+                </li>
+                <li onclick="credit(2000, 200000)">
+                    <span>CREDIT:</span>
+                    <span>2000$</span>
+                </li>
+                <li onclick="credit(2500, 250000)">
+                    <span>CREDIT:</span>
+                    <span>2500$</span>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
